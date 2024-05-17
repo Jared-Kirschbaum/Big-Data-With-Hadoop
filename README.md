@@ -1,4 +1,4 @@
-# Jared Kirschbaum HW3-Hadoop Map Reduce
+# Jared Kirschbaum Analyzing Big Data with Hadoop
 # Overview
 This document outlines the methodologies used for four distinct questions, each leveraging different aspects of data processing and analysis using Apache Hadoop and MapReduce. These questions analyze song data to identify various musical properties and artist characteristics.
 
