@@ -3,7 +3,7 @@
 This document outlines the methodologies used for four distinct questions, each leveraging different aspects of data processing and analysis using Apache Hadoop and MapReduce. These questions analyze song data to identify various musical properties and artist characteristics.
 
 # Usage
-Run the provided `test.sh` script. All processes are initiated from the `MasterDriver.java` file, ensuring a unified execution flow for all tasks.
+Run the provided `test.sh` script located in the `build` directory. All processes are initiated from the `MasterDriver.java` file, ensuring a unified execution flow for all tasks.
 
 ## Q7: Average Song Segment Analysis
 This question aims to derive insights about the average characteristics of songs from a large dataset, focusing on attributes like start time, pitch, timbre, and loudness levels. I first started by identifying the max length for each input column vector. I then padded each vector with 0 values to make sure they were all of the same length. From here I was able to obtain an average vector for each column using the song.
