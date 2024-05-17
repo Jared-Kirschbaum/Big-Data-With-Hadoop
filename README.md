@@ -34,9 +34,7 @@ This analysis determines the most unique and generic artists by calculating Eucl
 
 ### Methods
 - **Euclidean Distance**: The distance between two points (vectors) in Euclidean space is computed using the formula:
-  \[
-  d(p, q) = \sqrt{\sum_{i=1}^n (p_i - q_i)^2}
-  \]
+  $\(p, q) = \sqrt{\sum_{i=1}^n (p_i - q_i)^2}$
 - **Processing Steps**: Includes joining datasets, averaging attributes, and calculating distances.
 
 ## Q9: Song Attribute Prediction Using Hotness Score
@@ -63,13 +61,9 @@ Implements a song recommendation system based on TF-IDF scores and cosine simila
 ### Data Processing
 - **Term Frequency Calculation**: Calculates how often each term appears within each song's lyrics.
 - **TF-IDF Computation**: Combines term frequency and inverse document frequency to weigh term importance using the formula:
-  \[
-  \text{TF-IDF} = (\text{Term Frequency}) \times \log\left(\frac{\text{Total Number of Documents}}{\text{Number of Documents Containing the Term}}\right)
-  \]
+  $\\text{TF-IDF} = (\text{Term Frequency}) \times \log\left(\frac{\text{Total Number of Documents}}{\text{Number of Documents Containing the Term}}\right)\$
 - **Cosine Similarity Calculation**: Computes similarity scores between songs and user queries using the formula:
-  \[
-  \text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
-  \]
+  $\\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}\$
 
 ### Sorting and Ranking
 - **Final Step**: Ranks songs according to their relevance to the input query terms.
